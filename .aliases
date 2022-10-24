@@ -1,0 +1,5 @@
+alias print-colors='for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done'
+alias bolowarbot='ssh -i ~/Dropbox/Licenze\ Software/AWS_key.pem ubuntu@ec2-18-224-228-100.us-east-2.compute.amazonaws.com'
+alias bbb-remote='ssh chioma@vox7904704.mynet.vodafone.it -p 44'
+alias nano=/usr/local/bin/nano
+

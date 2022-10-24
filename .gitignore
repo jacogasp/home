@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Except
+!*.aliases
+!*.gitconfig
+!*.gitignore
+!*.nanorc
+!*.p10k.zsh
+!*.ssh/config
+!*.vimrc
+!*.vim
+!*.zshrc
