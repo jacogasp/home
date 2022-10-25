@@ -5,6 +5,7 @@
 !*.aliases
 !*.gitconfig
 !*.gitignore
+!*.iterm2
 !*.nanorc
 !*.p10k.zsh
 !*.ssh/config
