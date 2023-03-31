@@ -1,5 +1,2 @@
-alias nano=/usr/local/bin/nano
-alias python=/usr/local/bin/python3
-alias python3=/usr/local/bin/python3
-alias pip=/usr/local/bin/pip3
-alias pip3=/usr/local/bin/pip3
+alias vpncnaf="sudo openconnect -c ~/.ssh/vpn_cnaf.p12 gate3.cnaf.infn.it --authgroup=CNAF"
+# alias docker=podman
