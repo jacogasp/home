@@ -1,2 +1,2 @@
 alias vpncnaf="sudo openconnect -c ~/.ssh/vpn_cnaf.p12 gate3.cnaf.infn.it --authgroup=CNAF"
-# alias docker=podman
+alias docker=podman
