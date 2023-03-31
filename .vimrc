@@ -4,6 +4,7 @@ set smartindent
 set number
 set mouse=a
 set nocompatible
+set completeopt-=preview
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
