@@ -1,2 +1,10 @@
 alias vpncnaf="sudo openconnect -c ~/.ssh/vpn_cnaf.p12 gate3.cnaf.infn.it --authgroup=CNAF"
-alias docker=podman
+alias ls="ls -lah"
+alias c++="c++ --std=c++20"
+alias godot="/Applications/Godot.app/Contents/MacOS/Godot"
+alias k="kubectl"
+alias kdp="k delete pod"
+alias kl="k logs"
+alias klf="k logs -f"
+
+alias dlogs='docker logs -f'
