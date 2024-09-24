@@ -77,7 +77,11 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions docker docker-compose last-working-dir macos ssh)
+
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker
+zstyle ':completion:*:*:docker:*' option-stacking yes
+zstyle ':completion:*:*:docker-*:*' option-stacking yes
 
 DISABLE_MAGIC_FUNCTIONS=true source $ZSH/oh-my-zsh.sh
 
@@ -122,3 +126,4 @@ export VULKAN_SDK=$HOME/VulkanSDK
 export VCPKG_ROOT="$HOME/Workspaces/vcpkg"
 export VCPKG_DISABLE_METRICS
 [[ -s "$VCPKG_ROOT" ]] && export PATH=$PATH:$VCPKG_ROOT
+GITLAB_HOST=https://baltig.infn.it
